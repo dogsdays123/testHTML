@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="kiosk.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Modak&family=Nanum+Pen+Script&family=Nerko+One&display=swap');
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>
+      <div class="headText modak">Fat Buger</div>
+      <div class="container">
+        <div class="subMenus subMenu burger">
+          <button class="animated-button">
+            <svg viewBox="0 0 24 24" class="arr-2 burger" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+              </path>
+            </svg>
+            <span class="text"><i class="fa-solid fa-burger"></i></span>
+            <span class="circle"></span>
+            <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+              </path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="subMenus subMenu drink">
+          <button class="animated-button">
+            <svg viewBox="0 0 24 24" class="arr-2 drink" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+              </path>
+            </svg>
+            <span class="text"><i class="fa-solid fa-wine-glass"></i></span>
+            <span class="circle"></span>
+            <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+              </path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="subMenus subMenu set">
+          <button class="animated-button">
+            <svg viewBox="0 0 24 24" class="arr-2 set" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+              </path>
+            </svg>
+            <span class="text"><i class="fa-solid fa-kitchen-set"></i></span>
+            <span class="circle"></span>
+            <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+              </path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="subMenus subMenu side">
+          <button class="animated-button">
+            <svg viewBox="0 0 24 24" class="arr-2 side" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+              </path>
+            </svg>
+            <span class="text"><i class="fa-solid fa-utensils"></i></span>
+            <span class="circle"></span>
+            <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+              </path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="highMenu">
+        <div class="menuContainer burgerFull">
+          <div class="burger">
+            <div class="checkbox-wrapper-16 card">
+              <label class="checkbox-wrapper">
+                <div class="checkbox-tile hansam">
+                  <p class="checkbox-label"></p>
+                  <p class="eachPrice"></p>
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="downbarContainer hansam">
+    <div class="card2">
+      <div class="card2-inner">
+        <div class="card2-front">
+          <p class="choiseMenu" style="text-align: center;">환영합니다 ! <br> 주문할 메뉴를 선택해 주세요 !</p>
+        </div>
+        <div class="card2-back">
+          <p>주 문 하 기</p>
+        </div>
+      </div>
+    </div>
+    <div class="card4 card4Dis">
+      <div class="take"></div>
+      <div class="price"></div>
+      <div class="order"><button class="orderButton hansam">주문하기</button>
+      </div>
+    </div>
+    <div class="disable downbarMenuContainer">
+      <div class="card3">
+        <div class="buyMenu">
+
+        </div>
+        <div class="bg"></div>
+        <div class="blob"></div>
+      </div>
+    </div>
+  </div>
+  <script defer src="kiosk.js"></script>
+  <script src="https://kit.fontawesome.com/f2e4fb495d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
