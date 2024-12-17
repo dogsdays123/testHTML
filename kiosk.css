@@ -751,3 +751,9 @@ body {
   height: 220px;
   opacity: 1;
 }
+
+.contect{
+  position: absolute;
+  top: 96%;
+  font-size: 10px;
+}
